@@ -27,7 +27,7 @@ public class InsultGenerator {
 					if (vowels.indexOf(rs.getString("first").charAt(0)) == -1) {
 						article = "a";
 					}
-					theInsult =  String.format("Thou art %s %s %s %s!", article, rs.getString("first"), rs.getString("second"), rs.getString("noun"));
+					theInsult =  String.format("123 Thou art %s %s %s %s!", article, rs.getString("first"), rs.getString("second"), rs.getString("noun"));
 				}
 				rs.close();
 				connection.close();
